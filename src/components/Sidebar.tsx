@@ -47,14 +47,14 @@ const Sidebar: React.FC = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h1 style={{
-                        fontSize: '3rem',
-                        fontWeight: 800,
+                    <h1 className="site-title" style={{
+                        fontSize: '3.5rem',
+                        fontWeight: 400,
                         color: 'var(--text-primary)',
-                        letterSpacing: '-0.025em',
+                        letterSpacing: '0',
                         marginBottom: '0.5rem'
                     }}>
-                        <a href="/">Siva Sagar</a>
+                        <a href={import.meta.env.BASE_URL}>Siva Sagar</a>
                     </h1>
                     <h2 style={{
                         fontSize: '1.125rem',
@@ -62,16 +62,23 @@ const Sidebar: React.FC = () => {
                         color: 'var(--text-primary)',
                         marginBottom: '1rem'
                     }}>
-                        Independent Software Consultant
+                        Full-Stack Engineer | AI/ML Enthusiast
                     </h2>
                     <p style={{
                         color: 'var(--text-secondary)',
                         maxWidth: '300px',
-                        marginBottom: '4rem',
+                        marginBottom: '1.5rem',
                         lineHeight: 1.5
                     }}>
-                        I build fault-tolerant microservices, resilient data pipelines, and engaging digital experiences.
+                        I build microservices, resilient data pipelines, and engaging digital experiences.
                     </p>
+
+                    <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" className="cta-button" style={{ marginBottom: '3rem' }}>
+                        View Resume
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" style={{ width: '1.25rem', height: '1.25rem' }}>
+                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
+                        </svg>
+                    </a>
 
                     {/* Desktop Navigation */}
                     <nav style={{ display: 'none' }} className="lg-nav">
@@ -127,7 +134,7 @@ const Sidebar: React.FC = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:gsivasagar@gmail.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Email">
+                    <a href="mailto:sivasagar0101@gmail.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Email">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: '1.5rem', height: '1.5rem' }}>
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                             <polyline points="22,6 12,13 2,6"></polyline>

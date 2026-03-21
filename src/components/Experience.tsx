@@ -4,52 +4,60 @@ import { motion } from 'framer-motion';
 const Experience: React.FC = () => {
     const projects = [
         {
-            title: "Financial Investment Analysis Platform (Bull vs. Bear)",
+            title: "Financial Investment Analysis Platform",
             role: "Backend & Systems Architect",
             period: "Oct 2025 — Feb 2026",
-            description: "Architected a data-driven financial dashboard utilizing a multi-agent LangGraph orchestration engine to aggregate live market data from external APIs. Engineered robust microservices containerized with Docker, processing 500+ distinct financial metrics per session for real-time investment analysis.",
+            description: "Built a microservices investment analysis platform with Python and FastAPI, aggregating live market data from 3+ external APIs through a multi-agent LangGraph pipeline for real-time bull vs. bear comparisons. Containerized the full stack with Docker Compose, enabling reproducible deployments via automated CI/CD pipelines.",
             link: "https://bull-vs-bear-ipb1b0dvw-siva-sagars-projects.vercel.app/",
-            tech: ["Python", "FastAPI", "LangGraph", "Docker", "React"]
+            tech: ["Python", "FastAPI", "LangGraph", "React.js", "Docker", "CI/CD"]
         },
         {
-            title: "Enterprise Subscription Management System",
-            role: "Lead Full-Stack Engineer",
+            title: "Subscription Management Dashboard",
+            role: "Full-Stack Engineer",
             period: "Jun 2025 — Sep 2025",
-            description: "Developed a secure, customer-facing portal automating account provisioning, complex billing continuous cycles, and subscription lifecycle tracking for 100+ enterprise accounts. Implemented robust Node.js cron jobs for automated state management and Google OAuth for zero-trust authentication.",
+            description: "Built a subscription billing dashboard with Node.js, MySQL, and automated cron-based recurring payments, achieving sub-second load times and a 95+ Lighthouse score through schema optimization. Implemented Google OAuth with Role-Level Security (RLS) policies enforcing strict data isolation.",
             link: "https://subscription-management-dashboard-git-main-siva-sagars-projects.vercel.app/",
-            tech: ["Node.js", "Express.js", "MySQL", "React", "OAuth"]
+            tech: ["Node.js", "MySQL", "React.js", "TypeScript", "Docker", "OAuth"]
         },
         {
             title: "Smart Bookmark Platform",
             role: "Full-Stack Developer",
             period: "Feb 2025 — May 2025",
-            description: "Engineered a highly responsive, serverless bookmarking application featuring real-time, multi-device synchronization via WebSocket event streams. Configured strict Row Level Security (RLS) policies within Supabase to isolate data for a 500+ multi-tenant active user base while leveraging Optimistic UI for zero-latency interactions.",
+            description: "Built a real-time multi-user bookmark manager with Next.js and Supabase, replacing polling with WebSocket-based live sync and deploying on Vercel with OAuth authentication.",
             link: "https://member-berries-og6qgveo7-siva-sagars-projects.vercel.app/",
-            tech: ["Next.js", "Supabase", "Tailwind CSS", "WebSockets"]
+            tech: ["Next.js", "Supabase", "WebSockets", "Tailwind CSS", "OAuth", "Vercel"]
         },
         {
-            title: "Enterprise Exam & Quiz Generator",
+            title: "Exam & Quiz Generator",
             role: "AI & Data Engineer",
             period: "Nov 2024 — Jan 2025",
-            description: "Built a sophisticated Retrieval-Augmented Generation (RAG) pipeline to ingest massive PDF document repositories and generate contextual assessments. Deployed a fine-tuned TinyLlama model paired with ChromaDB for highly accurate semantic search and automated analytical scoring.",
+            description: "Built a RAG pipeline with fine-tuned TinyLlama and ChromaDB that ingests PDFs and semantically retrieves context across 1,000+ document chunks, auto-generating high-relevance quiz questions.",
             link: "https://exam-q-a-generator-ml8ost5r2xjygiv92bbmq5.streamlit.app/",
-            tech: ["Python", "ChromaDB", "LLMs", "Streamlit", "SQLite"]
+            tech: ["Python", "TinyLlama", "ChromaDB", "Streamlit", "RAG"]
         },
         {
             title: "Interactive Mock Interview Platform",
             role: "Frontend Engineer",
             period: "Aug 2024 — Oct 2024",
-            description: "Developed a browser-based, low-latency voice interview simulator leveraging WebRTC and WebSpeech APIs to establish seamless, cross-browser audio streaming. Integrated the Gemini API to construct dynamic, resume-aware questioning algorithms for unlimited practice sessions.",
+            description: "Built a browser-based voice interview simulator with WebRTC, WebSpeech API, and Gemini API, delivering context-aware, resume-based question generation across 4+ interview types.",
             link: "https://ai-mock-interview-lac-six.vercel.app",
-            tech: ["React", "TypeScript", "WebRTC", "Gemini API"]
+            tech: ["React.js", "TypeScript", "WebRTC", "WebSpeech API", "Gemini API"]
         },
         {
             title: "LeetCode AI Assistant",
             role: "Independent Developer",
             period: "May 2024 — Jul 2024",
-            description: "Engineered a resilient Chrome Extension utilizing React and TypeScript to inject contextual, non-blocking UI overlays directly into the DOM. Integrated the Gemini API to supply multi-language algorithmic generation and real-time step-by-step debugging feedback without disrupting the underlying web application state.",
+            description: "Built a Chrome Extension (React.js, TypeScript) that injects Gemini API-powered AI overlays into LeetCode pages, providing real-time debugging hints and pseudocode without disrupting user workflow.",
             link: "https://leetcode-assistant-six.vercel.app/",
-            tech: ["React", "TypeScript", "Chrome Extension API", "Gemini API"]
+            tech: ["React.js", "TypeScript", "Chrome Extension APIs", "Gemini API", "Git"]
+        },
+        {
+            title: "HPCL ISC",
+            role: "Software Engineering Intern",
+            period: "Nov 2022 — Apr 2023",
+            description: "Designed and shipped an Inventory Management System supporting 50+ product categories, reducing query execution time by 30% through PostgreSQL schema redesign and index optimization. Delivered production-ready code with 150+ JUnit test cases across 3 role-based access tiers by following TDD practices.",
+            link: "https://hindustanpetroleum.com/",
+            tech: ["Java", "PostgreSQL", "Apache Tomcat", "JSP", "JUnit", "Git"]
         }
     ];
 

@@ -4,46 +4,64 @@ import { motion } from 'framer-motion';
 const Skills: React.FC = () => {
     const skillCategories = [
         {
-            title: "Core Engineering",
+            title: "Languages",
+            skills: [
+                { name: "JavaScript (ES6+)", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+                { name: "TypeScript", url: "https://www.typescriptlang.org/" },
+                { name: "Python", url: "https://www.python.org/" },
+                { name: "Java", url: "https://dev.java/" },
+                { name: "SQL", url: "https://en.wikipedia.org/wiki/SQL" }
+            ]
+        },
+        {
+            title: "Frontend",
             skills: [
                 { name: "React.js", url: "https://react.dev/" },
                 { name: "Next.js", url: "https://nextjs.org/" },
-                { name: "TypeScript", url: "https://www.typescriptlang.org/" },
-                { name: "JavaScript (ES6+)", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-                { name: "Python", url: "https://www.python.org/" },
-                { name: "Node.js", url: "https://nodejs.org/" }
+                { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
+                { name: "WebRTC", url: "https://webrtc.org/" },
+                { name: "WebSpeech API", url: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" }
             ]
         },
         {
-            title: "AI Integration",
+            title: "Backend",
             skills: [
-                { name: "LangGraph", url: "https://langchain-ai.github.io/langgraph/" },
-                { name: "Vector Databases", url: "https://www.pinecone.io/learn/vector-database/" },
-                { name: "ChromaDB", url: "https://www.trychroma.com/" },
-                { name: "Gemini API", url: "https://ai.google.dev/" },
-                { name: "Local LLMs (Ollama)", url: "https://ollama.com/" }
-            ]
-        },
-        {
-            title: "Backend & Data",
-            skills: [
+                { name: "Node.js", url: "https://nodejs.org/" },
+                { name: "Express.js", url: "https://expressjs.com/" },
                 { name: "FastAPI", url: "https://fastapi.tiangolo.com/" },
+                { name: "Flask", url: "https://flask.palletsprojects.com/" }
+            ]
+        },
+        {
+            title: "Databases",
+            skills: [
                 { name: "PostgreSQL", url: "https://www.postgresql.org/" },
+                { name: "MySQL", url: "https://www.mysql.com/" },
                 { name: "MongoDB", url: "https://www.mongodb.com/" },
-                { name: "RESTful API", url: "https://aws.amazon.com/what-is/restful-api/" },
-                { name: "WebSockets", url: "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" },
                 { name: "Supabase", url: "https://supabase.com/" }
             ]
         },
         {
-            title: "Architecture & DevOps",
+            title: "AI / ML",
             skills: [
-                { name: "Microservices", url: "https://aws.amazon.com/microservices/" },
+                { name: "LangChain", url: "https://www.langchain.com/" },
+                { name: "LangGraph", url: "https://langchain-ai.github.io/langgraph/" },
+                { name: "ChromaDB", url: "https://www.trychroma.com/" },
+                { name: "RAG", url: "https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation" },
+                { name: "OpenCV", url: "https://opencv.org/" }
+            ]
+        },
+        {
+            title: "DevOps & Tools",
+            skills: [
                 { name: "Docker", url: "https://www.docker.com/" },
                 { name: "CI/CD", url: "https://about.gitlab.com/topics/ci-cd/" },
-                { name: "OAuth", url: "https://oauth.net/" },
-                { name: "JWT", url: "https://jwt.io/" },
-                { name: "Vercel", url: "https://vercel.com/" }
+                { name: "GitHub Actions", url: "https://github.com/features/actions" },
+                { name: "Vercel", url: "https://vercel.com/" },
+                { name: "Render", url: "https://render.com/" },
+                { name: "JUnit", url: "https://junit.org/" },
+                { name: "TDD", url: "https://en.wikipedia.org/wiki/Test-driven_development" },
+                { name: "Git", url: "https://git-scm.com/" }
             ]
         }
     ];

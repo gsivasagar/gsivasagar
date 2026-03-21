@@ -13,15 +13,15 @@ const Hero: React.FC = () => {
                 style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}
             >
                 <p>
-                    Back in 2022, I started exploring the mechanics of how complex software systems operate under the hood. Fast forward to today, and I've had the privilege of architecting solutions ranging from <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>real-time financial synchronization engines</span> to <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>AI-powered recruitment simulators</span>.
+                    I am an entry-level Full-Stack Engineer with a strong foundation in backend systems, gained through my internship at HPCL ISC, and a passion for building complex <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>AI/ML pipelines</span>. Over the past year, I've designed and deployed 6 production-ready projects spanning <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>React, FastAPI, and Next.js</span>.
                 </p>
 
                 <p>
-                    My main focus these days is building <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>fault-tolerant microservices</span> and rigorous data processing pipelines. I enjoy the challenge of bridging the gap between cutting-edge AI architectures (like LangGraph and Vector Databases) and robust, production-ready enterprise backends.
+                    My main focus these days is building scalable <span style={{ color: 'var(--text-primary)', fontWeight: 500 }}>microservices</span> and integrating cutting-edge AI architectures like LangGraph, ChromaDB, and fine-tuned LLMs into robust enterprise applications.
                 </p>
 
                 <p>
-                    When I'm not carefully constructing database schemas or debugging state machines, I'm usually solving algorithmic challenges on LeetCode, optimizing my personal workflows, or continuing my lifelong pursuit of learning new system design strategies.
+                    When I'm not carefully constructing database schemas or debugging state machines, I'm usually solving algorithmic challenges on LeetCode (400+ solved!), optimizing my personal workflows, or continuing my lifelong pursuit of learning new system design strategies.
                 </p>
 
             </motion.div>
