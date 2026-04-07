@@ -11,6 +11,13 @@
 
 ---
 
+## 🎓 Education
+
+**Bachelor of Technology - Computer Science & Systems Engineering**
+*Andhra University, Visakhapatnam* (Jul 2020 - Apr 2024)
+
+---
+
 ## 🛠️ Skills
 
 - **Languages:** JavaScript (ES6+), TypeScript, Python, Java, SQL
@@ -66,10 +73,3 @@
 *May 2024 – Jul 2024*
 - Implemented a Chrome Extension (React.js, TypeScript) that injects **Gemini API**-powered AI overlays directly into LeetCode pages, providing real-time algorithmic hints, debugging guidance, and pseudocode without disrupting user workflow.
 - **Tools:** TypeScript, React.js, Chrome Extension APIs, Gemini API
-
----
-
-## 🎓 Education
-
-**Bachelor of Technology - Computer Science & Systems Engineering**
-*Andhra University, Visakhapatnam* (Jul 2020 - Apr 2024)
