@@ -35,34 +35,34 @@
 
 ## 🚀 Featured Projects
 
-### 📈 [Financial Investment Analysis Platform (Bull vs. Bear)](#)
+### 📈 [Financial Investment Analysis Platform (Bull vs. Bear)](https://bull-vs-bear-ipb1b0dvw-siva-sagars-projects.vercel.app/)
 *Oct 2025 – Feb 2026*
 - Designed a microservices investment analysis platform with **Python** and **FastAPI**, enabling users to compare stock tickers via a dashboard that aggregates live financial data and news from **3 external APIs** through a multi-agent LangGraph pipeline.
 - Containerized the full stack (FastAPI + React.js) with Docker Compose, enabling reproducible one-command deployments via automated CI/CD pipelines.
 - **Tools:** Python, FastAPI, LangGraph, React.js, Docker, GitHub Actions
 
-### 💳 [Subscription Management Dashboard](#)
+### 💳 [Subscription Management Dashboard](https://subscription-management-dashboard-git-main-siva-sagars-projects.vercel.app/)
 *Jun 2025 – Sep 2025*
 - Architected a subscription billing dashboard with **Node.js** and **MySQL** that visualizes active subscriptions, expenses, and renewal dates with automated cron-based recurring payments - achieving subsecond load times and a **95+ Lighthouse score** through schema and rendering optimization.
 - Implemented Google OAuth with Row Level Security (RLS) policies, enforcing strict role-based data isolation across multi-tenant user accounts.
 - **Tools:** Node.js, Express.js, MySQL, React.js, TypeScript, Docker, Passport.js
 
-### 🔖 [Smart Bookmark Platform](#)
+### 🔖 [Smart Bookmark Platform](https://member-berries-og6qgveo7-siva-sagars-projects.vercel.app/)
 *Feb 2025 – May 2025*
 - Engineered a real-time multi-user bookmark manager with **Next.js** and **Supabase** that lets users save, categorize, and access links with auto-generated rich media previews - replacing polling with WebSocket live sync and OAuth authentication.
 - **Tools:** Next.js, Supabase, WebSockets, Tailwind CSS, Vercel
 
-### 📝 [Enterprise Exam & Quiz Generator](#)
+### 📝 [Enterprise Exam & Quiz Generator](https://exam-q-a-generator-ml8ost5r2xjygiv92bbmq5.streamlit.app/)
 *Nov 2024 – Jan 2025*
 - Created a RAG pipeline with fine-tuned **TinyLlama** and **ChromaDB** that lets students upload PDFs and auto-generates graded quizzes, using semantic chunking with overlap for high-fidelity context retrieval.
 - **Tools:** Python, TinyLlama, ChromaDB, Streamlit, SQLite, PyPDF2
 
-### 🎙️ [Interactive Mock Interview Platform](#)
+### 🎙️ [Interactive Mock Interview Platform](https://ai-mock-interview-lac-six.vercel.app)
 *Aug 2024 – Oct 2024*
 - Developed a browser-based voice interview simulator with WebRTC, WebSpeech, and **Gemini API** that generates context-aware questions from uploaded resumes across **4 interview types** (technical, behavioral, HR, and system design).
 - **Tools:** React.js, TypeScript, WebRTC, WebSpeech API, Gemini API
 
-### 🧩 [LeetCode AI Assistant (Chrome Extension)](#)
+### 🧩 [LeetCode AI Assistant (Chrome Extension)](https://leetcode-assistant-six.vercel.app/)
 *May 2024 – Jul 2024*
 - Implemented a Chrome Extension (React.js, TypeScript) that injects **Gemini API**-powered AI overlays directly into LeetCode pages, providing real-time algorithmic hints, debugging guidance, and pseudocode without disrupting user workflow.
 - **Tools:** TypeScript, React.js, Chrome Extension APIs, Gemini API
