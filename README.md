@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi there 👋, I'm Siva Sagar</h1>
-  <h3>Full-Stack Software Engineer & AI/ML Enthusiast</h3>
+  <h3>Full-Stack & AI/ML Engineer</h3>
 
   [Email](mailto:sivasagar1909@gmail.com) • [LinkedIn](https://linkedin.com/in/gsivasagar) • [GitHub](https://github.com/gsivasagar) • [Portfolio](https://gsivasagar.github.io/portfolio/) • [LeetCode](https://leetcode.com/)
 
